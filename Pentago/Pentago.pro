@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-05-04T20:37:36
+# Project created by QtCreator 2017-05-04T21:03:49
 #
 #-------------------------------------------------
 
@@ -24,14 +24,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        pentago.cpp \
-        player.cpp \
-        point.cpp \
-        quarter.cpp
+        pentago.cpp
 
-HEADERS  += pentago.h \
-            player.h \
-            point.h \
-            quarter.h
+HEADERS  += pentago.h
 
 FORMS    += pentago.ui
