@@ -1,1 +1,2 @@
 # Pentago // POLSL
+# cokolwiek
