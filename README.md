@@ -1,1 +1,1 @@
-# Pentago
+# Pentago // POLSL
