@@ -13,12 +13,12 @@ Player::Player(std::string name, bool color)
     this->name = name;
 }
 
-Player::changeColor(bool color)
+void Player::changeColor(bool color)
 {
     this->color = color;
 }
 
-Player::changeName(std::string name)
+void Player::changeName(std::string name)
 {
     this->name = name;
 }
