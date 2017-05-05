@@ -3,6 +3,7 @@
 #include "string"
 
 #include "player.h"
+#include "point.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +12,7 @@ int main(int argc, char *argv[])
     w.show();
 
     Player p("Radek", true);
+    Point pp(3,3);
 
     return a.exec();
 }
