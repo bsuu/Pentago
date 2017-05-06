@@ -26,10 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         pentago.cpp \
     player.cpp \
-    point.cpp
+    point.cpp \
+    quarter.cpp
 
 HEADERS  += pentago.h \
     player.h \
-    point.h
+    point.h \
+    quarter.h
 
 FORMS    += pentago.ui
