@@ -10,7 +10,7 @@ private:
     Point pointsTab[3][3];
 public:
     Quarter(void);
-    void rotate(void);
+    void rotate(bool);
     Point getPointAt(int,int);
 };
 
