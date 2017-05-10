@@ -1,30 +1,21 @@
 #include "quarter.h"
 
-Quarter::Quarter()
+Quarter::Quarter(void)
 {
-    int k = 0;
-
     for(int x = 0; x < 3; x++)
         for(int y = 0; y < 3; y++)
         {
             Point p(x,y);
-            this->points[k] = p;
-            k++;
+            this->pointsTab[x][y] = p;
         }
 }
 
-void Quarter::rotate(bool rotation)
+void Quarter::rotate(void)
 {
-    //ROBOTA PATRYCZKA
-    if(rotation)
-        int i = 0;
+    //TODO
 }
 
 Point Quarter::getPointAt(int x, int y)
 {
-    for(int i = 0; i < 9; i++)
-        if(points[i].getX() == x && points[i].getY() == y)
-            return points[i];
-
-    return nullptr;
+    return this->pointsTab[x][y];
 }
