@@ -3,15 +3,30 @@
 
 #include "point.h"
 
-class Quarter
+#include <QWidget>
+
+class Quarter : public QWidget
 {
+Q_OBJECT
+
 private:
-    Point points[9]; // TOREMOVE
     Point pointsTab[3][3];
+    int x;
+    int y;
+
 public:
-    Quarter(void);
+    Quarter(QWidget *parent = 0);
+
     void rotate(bool);
+    void initButtons(QWidget*);
+    void setCoords(int,int);
+
+
+
     Point getPointAt(int,int);
+
+public slots:
+    void clickButton(int, int);
 };
 
 #endif // QUARTER_H

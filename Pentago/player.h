@@ -13,6 +13,7 @@ public:
     Player(std::string, bool);
     void changeName(std::string name);
     void changeColor(bool);
+    std::string getName() {return name;}
 };
 
 #endif // PLAYER_H
